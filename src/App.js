@@ -10,6 +10,7 @@ import {
 
 import { Home } from './components/Home'
 import { About } from './components/About'
+import { ContactUs } from './components/ContactUs';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -34,6 +35,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<ContactUs />} />
     </Routes>
     </BrowserRouter>
   );
