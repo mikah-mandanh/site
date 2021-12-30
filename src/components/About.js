@@ -3,7 +3,7 @@ function About(props) {
     <div className="App">
         <header className="App-header">
         <p>
-            About Em &amp; Anh
+            About M &amp; Anh
         </p>
         </header>
     </div>

@@ -8,20 +8,18 @@ function HomeCarousel(props) {
                 <img
                 className="d-block w-100"
                 src="consult.jpg"
-                alt="Consult with our experienced team"
                 />
                 <Carousel.Caption>
-                <h3>Consulting Services</h3>
+                <h2>Consult with our experienced team</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src="design-1.jpg"
-                alt="Design your transformation with us"
                 />
                 <Carousel.Caption>
-                <h3>Design</h3>
+                <h2>Design your transformation with us</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             
@@ -29,10 +27,9 @@ function HomeCarousel(props) {
                 <img
                 className="d-block w-100"
                 src="develop.jpg"
-                alt="Third slide"
                 />
                 <Carousel.Caption>
-                <h3>Build Software</h3>
+                <h2>Engineer your future</h2>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
