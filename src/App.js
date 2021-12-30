@@ -2,6 +2,15 @@ import './App.css';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import { Home } from './components/Home'
+import { About } from './components/About'
+
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -21,13 +30,12 @@ const analytics = getAnalytics(app);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          M &amp; Anh Services - Coming Soon
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
