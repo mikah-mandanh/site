@@ -10,7 +10,7 @@ function HomeCarousel(props) {
                 src="consult.jpg"
                 />
                 <Carousel.Caption>
-                <h2>Consult with our experienced team</h2>
+                <h2>Consult with our experienced professionals </h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
