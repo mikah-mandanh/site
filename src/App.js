@@ -11,6 +11,8 @@ import {
 import { Home } from './components/Home'
 import { About } from './components/About'
 import { ContactUs } from './components/ContactUs';
+import { Consult } from './components/Consult';
+import { Design } from './components/Design'
 import { Reseller } from './components/Reseller'
 
 // Your web app's Firebase configuration
@@ -37,6 +39,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<ContactUs />} />
+      <Route path="/consult" element={<Consult />} />
+      <Route path="/design" element={<Design />} />
       <Route path="/reseller" element={<Reseller />} />
     </Routes>
     </BrowserRouter>

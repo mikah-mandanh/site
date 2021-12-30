@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Container, Form } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, MenuItem, Container, Form } from 'react-bootstrap';
 
 function Menu(props) {
     return (
@@ -11,7 +11,11 @@ function Menu(props) {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="/contact">Contact Us</Nav.Link>
-                <Nav.Link href="/reseller">Reseller</Nav.Link>
+                <NavDropdown title="Services">
+                    <NavDropdown.Item href="/consult">Consult</NavDropdown.Item>
+                    <NavDropdown.Item href="/design">Design</NavDropdown.Item>
+                    <NavDropdown.Item href="/reseller">Become a Reseller</NavDropdown.Item>
+                </NavDropdown>
             </Nav>
             </Navbar.Collapse>
         </Container>
