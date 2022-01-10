@@ -6,6 +6,11 @@ function About(props) {
             About M &amp; Anh
         </p>
         </header>
+        <div class="row">
+            <div class="col">
+                We are a consulting firm with professional solution architecture, design, and development capabilities.
+            </div>
+        </div>
     </div>
     )
 }

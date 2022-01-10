@@ -1,5 +1,6 @@
 import './Home.css'
 import { HomeCarousel } from "./HomeCarousel"
+import { Categories } from "./Categories"
 
 function Home(props) {
     return(
@@ -8,6 +9,7 @@ function Home(props) {
             M &amp; Anh Services - Coming Soon
         </header>
         <HomeCarousel />
+        <Categories />
     </div>
     )
 }

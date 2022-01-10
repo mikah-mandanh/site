@@ -4,11 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Menu } from "./components/Menu";
+import DocumentMeta from 'react-document-meta';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+const meta = {
+  charset: 'utf-8',
+  name: {
+      keywords: 'consulting,engineering,design,development'
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
+    <DocumentMeta {...meta} />
     <Menu />
     <App />
   </React.StrictMode>,
