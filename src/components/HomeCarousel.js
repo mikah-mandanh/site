@@ -3,8 +3,9 @@ import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function HomeCarousel(props) {
+    
     return(
-        <Carousel>
+        <Carousel showThumbs={false}>
         <div>
             <img src="consult.jpg" />
             <p className="legend">Consult</p>
