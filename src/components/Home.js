@@ -9,7 +9,6 @@ function Home(props) {
             M &amp; Anh Services - Coming Soon
         </header>
         <HomeCarousel />
-        <Categories />
     </div>
     )
 }
